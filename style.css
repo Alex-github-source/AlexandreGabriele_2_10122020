@@ -1,3 +1,44 @@
-#menu{
-    display:flex;
+body{
+    font-family:Raleway, serif;
+   
 }
+.logo {
+    float:left;
+}
+
+
+.entete{
+    height:113px;
+    margin-bottom: 16px;
+}
+#menu li{
+    margin:0 10px;
+    font-weight: bold;
+    list-style-type:none;
+    color:#0065FC;
+    float:left;
+    position:relative;
+    
+}
+nav>ul::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+a:visited{
+    color:#0065FC;
+}
+#menu{
+    float:right;
+}
+
+#menu a{
+    display:inline-block;
+    text-decoration:none;
+}
+#menu li a{
+    padding:10px 20px;
+}
+
+
