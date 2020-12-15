@@ -1,5 +1,5 @@
 body{
-    height:100%;
+    width: 1440px;
     margin:0px;
     padding:0px;
     font-family:Raleway, serif;
@@ -90,40 +90,93 @@ a:visited{
     font-size: 20px;
     font-weight: bold;
  }
+ h2{
+  margin-left: 30px;
+ }
 #hebergements{
     display:flex;
-    height:525px;
-    margin-bottom:  99px ;
+    height:750px;
+    margin-bottom: 130px ;
     margin-left: 50px;
+    
+    
 }
 
 #hébé{
-    
     display:flex;
-    height:100%;
-    width:880px;
+    width:920px;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin:30px 35px 0px 0px;
-    background-color: #F2F2F2;
-    border-radius:10px;
+    margin:30px 30px 0px 0px;
+    
 }
+
 #popu{
     display:flex;
-    height:100%;
-    flex-direction: column;
-    justify-content: space-between;
-    margin:30px 35px 0px 0px;
+    justify-content: center;
+    width:345px;
+    flex-wrap: wrap;
+    margin:30px 30px 0px 0px;
+    
+}
+.imgheb{
+     background-color: white;
+     height:199px;
+     width:236px;
+     margin:30px;
+     padding:5px;
+     border-radius:10px;
+     
+          
+}
+#hébé img{
+ border-radius: 5px 5px 0px 0px;
+}
+#popu img{
+ border-radius: 5px 0px 0px 5px;
+}
+.imgpop{
+     
+     display:flex;
+     align-items: center;
+     background-color: white;
+     height:144px;
+     width:353px;
+     margin:30px 30px 25px 40px;
+     padding:5px;
+     border-radius: 10px;
+}
+#popu figcaption{
+      margin:5px;
+}
+#hébé figcaption{
+     margin:5px;
+}
+#popu figure{
+ 
+ 
+}
+.fondpage1{
+    width: 920px;
+    padding:10px;
     background-color: #F2F2F2;
     border-radius: 10px;
+    margin:30px 30px 0px 0px;
+}
+.fondpage{
+    width: 420px;
+    padding:10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin:30px 30px 0px 0px;
 }
 .aff{
-    margin-top:-89px;
+    margin-top:42px;
     margin-left:35px;
 }
+
 #activites{
     
-    height:510px;
+    height:560px;
     margin-left:50px;
     margin-bottom: 57px;
     
