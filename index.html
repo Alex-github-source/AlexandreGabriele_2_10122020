@@ -2,6 +2,7 @@
     <html>
         <head>
             <title>Projet 2-Maquette Reservia</title>
+            <script src="https://kit.fontawesome.com/571d3d6aaa.js" crossorigin="anonymous"></script>
             <meta charset="utf-8"/>
             <link rel="stylesheet" href="style.css"/>
         </head>
@@ -22,19 +23,19 @@
               <p><strong>Trouvez votre hébergement pour des vacances de rêve</strong><br/>En plein centre ville ou en pleine nature</div>                       <!-- recherche--> 
               </p>
               <form>
-                
-                <input type="search" id="maRecherche" value="Marseille,France" >
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="search" id="maRecherche" value="Marseille,France"/>
                 <button id="bouton">Rechercher</button>
               </form>
               
               <div id="filtres">
-                <div class="filtre">Filtres</div>
-                <div class="filtre">Economique</div>
-                <div class="filtre">Familial</div>
-                <div class="filtre">Romantique</div>
-                <div class="filtre">Animaux autorisés</div>
+                <div class="filt">Filtres</div>
+                <div class="filtre"><i class="fas fa-money-bill-wave"></i>Economique</div>
+                <div class="filtre"><i class="fas fa-child"></i>Familial</div>
+                <div class="filtre"><i class="fas fa-heart"></i>Romantique</div>
+                <div class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</div>
               </div>
-              <p>Plus de 500 logements disponibles dans cette ville</p>
+              <p><i class="fas fa-info"></i>Plus de 500 logements disponibles dans cette ville</p>
             </div>       
             <div id="hebergements">
                     <div class="fondpage1" >
@@ -51,7 +52,8 @@
                         
                     </div>
                     <div class="fondpage" >
-                        <h2>Les plus populaires</h2>
+                        <h2>Les plus populaires</h2><i class="fas fa-chart-line"></i>
+                        
                         <div id="popu">
                         <figure class="imgpop"><img src="image/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"/><figcaption><b>Hôtel Le soleil du matin</b><br/>Nuit à partir de 128€</figcaption></figure>
                         <figure class="imgpop"><img src="image/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"/><figcaption><b>Au coeur de l'eau Chambres d'hôtes</b><br/>Nuit à partir de 71€</figcaption></figure>             <!--hébergement populaires-->
@@ -62,12 +64,12 @@
             <div id="activites">
                 <h2>Activités à Marseille</h2>
                 <div id="acti">
-                <figure><img src="" alt="Vieux Port"/><figcaption>Vieux Port</figcaption></figure>
-                <div ><figure><img src="" alt="Fort de Pomègues"/><figcaption>Fort de Pomègues</figcaption></figure>
-                <figure><img src="" alt="Îles du Frioul"/><figcaption>Îles du Frioul</figcaption></figure></div>
-                <figure><img src="" alt="Parc National des Calanques"/><figcaption>Parc National des Calanques</figcaption></figure>                            <!-- partie activités-->
-                <div ><figure><img src="" alt="Notre-Dame-de-la-Garde"/><figcaption>Notre-Dame-de-la-Garde</figcaption></figure>
-                <figure><img src="" alt="Parc Longchamp"/><figcaption>Parc Longchamp</figcaption></figure></div>
+                <figure class="act"><img src="image/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"/><figcaption>Vieux Port</figcaption></figure>
+                <div ><figure id="act2"><img src="image/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/><figcaption>Fort de Pomègues</figcaption></figure>
+                <figure id="act3"><img src="image/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul"/><figcaption>Îles du Frioul</figcaption></figure></div>
+                <figure class="act"><img src="image/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/><figcaption>Parc National des Calanques</figcaption></figure>                            <!-- partie activités-->
+                <div ><figure id="act4"><img src="image/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/><figcaption>Notre-Dame-de-la-Garde</figcaption></figure>
+                <figure id="act5"><img src="image/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/><figcaption>Parc Longchamp</figcaption></figure></div>
                 </div>
             </div>       
             <footer>

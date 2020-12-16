@@ -1,6 +1,7 @@
 body{
+    height:1880px;
     width: 1440px;
-    margin:0px;
+    margin:auto;
     padding:0px;
     font-family:Raleway, serif;
    
@@ -81,14 +82,30 @@ a:visited{
  }
  #filtres{
     display:flex;
-    width: 950px;
+    width: 1050px;
     justify-content: space-between;
     margin:20px 20px 20px 0px;          
     
  }
  .filtre{
+    
+    width: 300px;
     font-size: 20px;
     font-weight: bold;
+    border-radius:20px;
+    border:3px solid #F2F2F2;
+    border-left: none;
+    margin-right:20px;
+    
+    
+    
+ }
+.filt{
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
  }
  h2{
   margin-left: 30px;
@@ -97,7 +114,7 @@ a:visited{
     display:flex;
     height:750px;
     margin-bottom: 130px ;
-    margin-left: 50px;
+    margin-left: 30px;
     
     
 }
@@ -128,7 +145,7 @@ a:visited{
      
           
 }
-#hébé img{
+#hébé,#acti img{
  border-radius: 5px 5px 0px 0px;
 }
 #popu img{
@@ -151,10 +168,9 @@ a:visited{
 #hébé figcaption{
      margin:5px;
 }
-#popu figure{
+
  
  
-}
 .fondpage1{
     width: 920px;
     padding:10px;
@@ -175,26 +191,69 @@ a:visited{
 }
 
 #activites{
-    
+   
     height:560px;
-    margin-left:50px;
+    
     margin-bottom: 57px;
     
 }
 #acti{
     display:flex;
     height:100%;
+    
 }
+.act{
+    height:444px;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px #F2F2F2;
+    margin-right:22px;
+    margin-left:22px;
+    
+ 
+}
+#act2{
+    
+    height:235px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    margin-bottom: 44px ;
+}
+#act3{
+    height:164px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+#act4{
+    height: 194px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    margin-bottom: 41px;
+}
+#act5{
+    height:209px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+}
+#acti figcaption{
+   margin:5px;
+   font-weight: bold;
+}
+
+
+
 footer{
+    width: 1420px;
     background-color: #F2F2F2;
 }
 #piedpage{
+     
     display:flex;
     height:100%;
     margin-left: 50px;
     
     
 }
+
 .baspage:nth-child(1){
     flex:1;
 }
@@ -207,6 +266,72 @@ footer{
 .foot{
     line-height: 2em;
 }
+
+
+/*Icones:*/
+
+.fa-map-marker-alt{
+   font-size: 25px;
+   height:45px;
+   width: 50px;
+   border-radius:25% 0 0 25%;
+   padding:5px;
+   background-color:#F2F2F2;
+   text-align: center;
+   
+   
+}
+    
+ .fa-money-bill-wave {
+		font-size: 25px;
+		border-radius: 50%;
+		padding: 5px;
+		background-color:#DEEBFF ;
+		color: #0065FC;
+	}
+ 
+   .fa-child {
+		font-size: 25px;
+		border-radius: 50%;
+		padding: 5px;
+		background-color:#DEEBFF ;
+		color: #0065FC;
+	}
+ 
+ .fa-heart {
+		font-size: 25px;
+		border-radius: 50%;
+		padding: 5px;
+		background-color:#DEEBFF ;
+		color: #0065FC;
+	}
+ 
+ .fa-dog {
+		font-size: 25px;
+		border-radius: 50%;
+		padding: 5px;
+		background-color:#DEEBFF ;
+		color: #0065FC;
+  
+	}
+ 
+   
+.fa-info {
+
+		font-size: 12px;
+		border-radius: 50%;
+		border: 1px solid #F2F2F2;
+		padding: 5px;
+		color: #0065FC;
+  margin-right: 20px;
+  margin-left:30px;
+	}
+ 
+ .fa-chart-line{
+  position:relative;
+  top:-43px;
+  left:350px;
+ }
 
 
 
