@@ -1,32 +1,33 @@
 
-body{
+#blocpage{
  
  
-    height:1880px;
+    height:auto;
     width: 1440px;
     margin:auto;
     font-family:Raleway, serif;
    
 }
+
 .logo {
     
     margin-top: 20px;
 }
 #logo{
- width:200%;
+ width:250px;
 }
 
 
 .entete{
+   width:900px;
     display:flex;
     height:120px;                               
     margin-bottom: 50px;
-    font-size: 100%;
 }
 
 
 .hébé{
-    margin-left:1000px;
+    margin-left:680px;
     margin-right: 10px;
     font-weight: bold;
                                /* stylisation  du menu de navigation*/    
@@ -47,6 +48,7 @@ a:visited{
 
 }
 .entete  a{
+ font-size:150%;
     padding:20px 20px;
 }
 
@@ -97,11 +99,13 @@ a:visited{
  form{
   display:flex;
   align-items: center;
+  margin-top:30px;
+  margin-left:30px;
  }
  
  #filtres{
     display:flex;
-    width: 1150px;
+    width: auto;
     margin-top:30px;
     margin-left:35px;
     margin-bottom: 30px;
@@ -181,8 +185,9 @@ a:visited{
  }
 #hebergements{
     display:flex;
+    
     height:750px;
-    margin-bottom: 130px ;
+    margin-bottom: 25px ;
     margin-left: 30px;
     
     
@@ -190,9 +195,10 @@ a:visited{
 
 #hébé{
     display:flex;
-    width:920px;
+    max-width:920px;
+    height:auto;
     flex-wrap: wrap;
-    margin:30px 30px 0px 0px;
+    margin:20px 30px 0px 0px;
     
 }
 
@@ -201,20 +207,29 @@ a:visited{
     justify-content: center;
     width:345px;
     flex-wrap: wrap;
-    margin-top:12px ;
+    margin-top:0px ;
     
 }
 .imgheb{
-     background-color: white;
-     height:199px;
-     width:236px;
-     margin:30px;
-     padding:5px;
-     border-radius:10px;
      
-          
+     width:auto;
+     margin:0px;
+     padding:5px;
+}
+#hébé p{
+ margin-top:10px;
+ margin-left:10px;
+}
+#hébé div{
+ margin:15px 30px 15px 30px;
+padding-top:5px;
+height:209px;
+ width:246px;
+ border-radius:10px;
+ background-color: white;
 }
 #hébé img{
+ 
  border-radius: 5px 5px 0px 0px;
 }
 #acti img{
@@ -223,108 +238,121 @@ a:visited{
 #popu img{
  border-radius: 5px 0px 0px 5px;
 }
+#popu div{
+  margin:17px 30px 17px 30px;
+border-radius:10px;
+ background-color:white;
+ width:auto;
+ height:144px;
+}
 .imgpop{
      
      display:flex;
      align-items: center;
-     background-color: white;
      height:144px;
-     width:343px;
-     margin:30px 30px 25px 40px;
+     width:auto;
      padding-left: 5px;
-     border-radius: 10px;
 }
-#popu figcaption{
-      margin:5px;
+.legpop{
+ display:flex;
+ 
 }
-#hébé figcaption{
-     margin:5px;
+.legpop p{
+ margin-left:10px;
+ margin-top: 20px;
 }
+
 
  
  
 .fondpage1{
-    width: 920px;
-    padding:10px;
+    height:627px;
+    width: auto;
     background-color: #F2F2F2;
     border-radius: 10px;
-    margin:30px 30px 0px 0px;
+    margin:60px 40px 0px 0px;
 }
 .fondpage{
-    width: 420px;
-    padding:10px;
+    height:627px;
+    width: auto;
     background-color: #F2F2F2;
     border-radius: 10px;
-    margin:30px 30px 0px 0px;
+    margin:60px 30px 0px 0px;
 }
 .aff{
     font-weight: bold;
-    margin-top:42px;
-    margin-left:35px;
+    position:relative;
+    left:30px;
+    
+  
 }
 .yellow-star{
- color:yellow;
+ color:#0065FC;
  font-size: 150%;
 }
 #activites{
    
     height:560px;
-    
+    margin-left:30px;
     margin-bottom: 57px;
     
 }
 #acti{
+    width:auto;
     display:flex;
-    height:100%;
+    margin:30px;
+    margin-top:35px;
     
 }
-.act{
-    height:444px;
-    border-radius: 10px;
-    box-shadow:5px 5px 5px #F2F2F2;
-    margin-right:22px;
-    margin-left:22px;
-    
- 
-}
-#act2{
-    
-    height:235px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #F2F2F2;
-    margin-bottom: 44px ;
-}
-#act3{
-    height:164px;
-    border-radius:10px;
-    box-shadow: 5px 5px 5px #F2F2F2;
-}
-#act4{
-    height: 194px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #F2F2F2;
-    margin-bottom: 41px;
-}
-#act5{
-    height:209px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #F2F2F2;
-}
-#acti figcaption{
-   margin:5px;
-   font-weight: bold;
+#acti p{
+ font-weight: bold;
+margin-left:10px;
 }
 
+.legacti{
+ height:444px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+#legacti2{
+ height:160px;
+  margin-top:55px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius:15px;
+}
+#legacti3{
+ height:200px;
+  margin-top:50px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+#legacti1{
+ height:230px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+#legacti4{
+ height:200px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
 
 
 footer{
-    width: 1440px;
+    width: auto;
     background-color: #F2F2F2;
 }
 #piedpage{
      
     display:flex;
-    height:100%;
     margin-left: 50px;
     
     
@@ -407,10 +435,11 @@ footer{
  
  /**responsive**/
 
-@media all and (max-width:767px){
+@media all and (max-width:479px){
  #blocpage{
-  width:auto;
+  height:auto;
   margin:auto;
+  width:auto;
 }
 
 .entete{
@@ -419,12 +448,22 @@ footer{
  display:flex; 
 }
 #logo{
- width:150%;
+ width:300%;
  }
 .logo{
 position:absolute;
 top:20px;
 align-self: flex-start;
+}
+#activites h2{
+ margin-right:100px;
+}
+.fondpage h2{
+ margin-right: 200px;
+ 
+}
+.fondpage1 h2{
+ margin-right:160px;
 }
 .hébé{
  font-size: 130%;
@@ -433,8 +472,9 @@ align-self: flex-start;
 }
 .hébé a{
 position:absolute;
-top:130px;
-right:45%;
+top:155px;
+left:145px;
+font-size:150%;
 }
 .acti{
 font-size: 130%;
@@ -443,8 +483,9 @@ font-size: 130%;
 }
 .acti a{
  position:absolute;
- top:130px;
- right:10%;
+ top:155px;
+ right:-270px;
+ font-size:150%;
  }
 
 .inscri{
@@ -455,8 +496,9 @@ font-size: 130%;
 }
 .inscri a{
  position:absolute;
- top:45px;
- right:0;
+ top:65px;
+ right:-475px;
+ font-size:250%
 
 }
 .hébé:hover a{
@@ -468,19 +510,20 @@ font-size: 130%;
  border-bottom: 2px solid #0065FC;
 }
 #recherche p{
- position:absolute;
- top:19%;
- left:2%;
+ margin-left:150px;
  width:390px;
  padding:10px;
- 
- word-wrap: break-word;
+ margin-top:100px;
  }
+ form{
+  margin-left:150px;
+ }
+ 
 
  #filtres {
   flex-direction: column;
   width:400px;
-  margin-left:0;
+  margin-left:150px;
   margin-bottom:50px;
   
   
@@ -534,49 +577,323 @@ font-size: 130%;
     margin-bottom: 15px;
     }
     #info{
+     width:500px;
+     margin-left:130px;
      margin-top:75px
     }
   #hebergements{
-  margin-top:1850px;
+   
+  margin-top:650px;
+  margin-bottom: 0px;
   margin-left:0px;
   flex-direction: column-reverse;
  }
   #hébé{
   flex-direction: column;
-  margin-left:10px;
+  margin-right: 70px;
   
  }
+ #hébé p{
+  margin-left: 10px;
+ }
+  #popu{
+   display:flex;
+   flex-direction: column;
+   margin-left: -70px;
+  
+  }
+  #popu div{
+   width:334px;
+   margin-left:0px;
+  }
+  
+  .legpop{
+   display:flex;
+  }
+
+
+  .imgpop{
+   margin-bottom:50px;
+  }
+  .fondpage{
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+    padding:0px;
+    min-width: 878px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin:60px 0px 0px 0px;
+  }
+  .fondpage1{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+    min-width:767px;
+    padding:0px;
+    background-color:white;
+  }
   #activites{
-   
-   margin-left:10px;
-   margin-bottom: 1350px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top:990px;
+  min-width:767px;
+   margin-left:0px;
+   margin-bottom: 700px;
   }
   #acti{
       flex-direction: column;
-      
       margin-top:50px;
+      margin-left: 90px;
       
   }
-  .fondpage{
-   width:auto;
-  }
-  .fondpage1{
-   
-    width:auto;
-    padding:10px;
-    background-color:white;
-    border-radius: 10px;
-  }
+
  .act{
   height:auto;
   width:334px;
   margin-left:40px;
  }
-
-#piedpage{
-  flex-direction:column;
+ #acti p{
+ 
+ margin-left:20px; 
  }
+ 
+
+ 
+  .legacti{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
 }
+  #legacti1{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+ #legacti2{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+  #legacti3{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+  #legacti4{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+footer{
+ min-width: 878px;
+}
+#piedpage{
+margin-left:0px;
+ margin-top:1150px;
+  flex-direction:column;
+  align-items:center;
+ }
+
+.baspage{
+ line-height:normal;
+}
+.baspage:nth-child(2){
+ margin-left:-65px;
+}
+.baspage:nth-child(3){
+ margin-left:-110px;
+}
+}
+
+
+@media all and (min-width:480px) and (max-width:959px){
+ #blocpage{
+  height:auto;
+  margin:auto;
+  width:auto;
+}
+#logo{
+ width:300px;
+}
+.hébé{
+margin-left:825px;
+}
+
+.hébé a{
+ font-size:  150%;
+ margin-left:20px;
+}
+.acti a{
+ font-size:150%;
+}
+.inscri a {
+ font-size:150%;
+}
+#recherche p{
+ margin-top:100px;
+ margin-left:65px;
+}
+form{
+ margin-left:65px;
+}
+#filtres{
+ margin-left:65px;
+}
+#info{
+ margin-left:20px;
+}
+#hébé{
+ margin-top:40px;
+ height:785px;
+ width:auto;
+ flex-flow:column wrap;
+}
+#hébé p{
+ margin-top:5px;
+}
+#hébé div{
+ width:334px;
+ height:210px;
+ background-color: white;
+ border-radius: 15px;
+ padding:0px;
+}
+.imgheb{
+ padding-left:0px;
+}
+#popu div{
+ width:334px;
+ height:210px;
+ background-color: white;
+ border-radius: 15px;
+ padding:0px;
+}
+#popu p{
+ margin-top:5px;
+}
+.imgpop{
+ padding-left:0px;
+}
+.fondpage1{
+ min-width:900px;
+ height:890px;
+ margin-left:60px;
+}
+.fondpage{
+ min-width:500px;
+ height:890px;
+}
+.legpop{
+ flex-direction: column;
+}
+#popu{
+ margin-top:20px;
+}
+
+#popu div{
+ margin-top:20px;
+ margin-bottom:10px;
+ margin-left:140px;
+}
+#popu img{
+ border-radius:5px 5px 0px 0px;
+}
+.fondpage h2{
+ margin-left:50px;
+}
+#activites h2{
+ margin-left:140px;
+}
+#activites{
+ margin-top:350px;
+ width:959px;
+}
+.aff{
+ top:-30px; 
+}
+ .legacti{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:110px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+ margin-left:50px;
+}
+  #legacti1{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:110px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+ #legacti2{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+  #legacti3{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:40px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+  #legacti4{
+ height:190px;
+ width:333px;
+ margin-top:60px;
+ margin-right:110px;
+ box-shadow: 5px 5px 5px #F2F2F2;
+ border-radius: 15px;
+}
+#acti{
+ display:flex;
+ flex-wrap:wrap;
+ min-width:1575px;
+ margin-left:100px;
+}
+.legresp{
+ display:flex;
+ flex-direction: row;
+ width:1000px;
+}
+footer{
+ width:1575px;
+}
+#piedpage{
+ justify-content:center;
+}
+
+}
+
+
+
+
+
+
 
  
  
