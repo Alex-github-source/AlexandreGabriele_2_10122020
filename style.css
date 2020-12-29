@@ -221,6 +221,7 @@ a:visited{
  color:black;
 }
 #heberg p{
+
  margin-top:10px;
  margin-left:10px;
  margin-bottom:10px;
@@ -267,6 +268,7 @@ border-radius:10px;
  text-decoration: none;
 }
 #popu p{
+ width:180px;
  height:120px;
 }
  
@@ -293,8 +295,11 @@ border-radius:10px;
   
 }
 #popu .stars{
- margin-left:150px;
+ position:relative;
+ left:140px;
+ bottom:40px;
 }
+
 .stars{
  
  margin-left: 10px;
@@ -492,6 +497,7 @@ align-self: flex-start;
  margin-right:220px;
  margin-left:0px;
 }
+
 .heberg{
  font-size: 130%;
  margin-right: 30px;
@@ -547,10 +553,7 @@ font-size: 130%;
   margin-left:245px;
  }
  
-.stars{
- margin-top:-50px;
- margin-left: 10px;
-}
+
  #filtres {
   flex-direction: column;
   width:400px;
@@ -619,18 +622,26 @@ font-size: 130%;
   margin-left:0px;
   flex-direction: column-reverse;
  }
+ #heberg div{
+  height:225px;
+  width:343px;
+  box-shadow: 5px 5px 5px #F2F2F2;
+ }
   #heberg{
   flex-direction: column;
-  margin-right: 95px;
+  margin-right: 0px;
   
  }
+ #heberg .stars{
+  margin-left: 40px;
+ }
  #heberg p{
-  margin-left: 10px;
+  margin-left: 35px;
  }
   #popu{
    display:flex;
    flex-direction: column;
-   margin-right:80px;
+   margin-right:60px;
   
   }
   #popu div{
@@ -640,7 +651,12 @@ font-size: 130%;
   #popu p{
    height:65px;
   }
-  
+  #popu .stars{
+   position:relative;
+   top:10px;
+   left:0px;
+   right:15px;
+  }
   .legpop{
    display:flex;
   }
@@ -664,6 +680,8 @@ font-size: 130%;
    flex-direction: column;
    align-items: center;
     min-width:945px;
+    height:100%;
+    margin-top:20px;
     padding:0px;
     background-color:white;
   }
@@ -804,7 +822,13 @@ form{
  margin-top:100px;
 }
 #heberg p{
- margin-top:5px;
+ float:left;
+ margin-top:15px;
+}
+#heberg.stars{
+ position:relative;
+ top:20px;
+ left:5px;
 }
 #heberg div{
  width:334px;
@@ -816,6 +840,10 @@ form{
 .imgheb{
  padding-left:0px;
 }
+#heberg .stars{
+ position:relative;
+ top:20px;
+}
 #popu div{
  width:334px;
  height:210px;
@@ -824,7 +852,15 @@ form{
  padding:0px;
 }
 #popu p{
- margin-top:5px;
+ float:left;
+ margin-top:-5px;
+ margin-left:5px;
+}
+#popu .stars{
+ position:relative;
+ top:15px;
+ right:150px;
+ left:0px;
 }
 .imgpop{
  padding-left:0px;
