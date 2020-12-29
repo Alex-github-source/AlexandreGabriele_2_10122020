@@ -1,12 +1,14 @@
-
+    @font-face{
+    font-family:"Raleway";
+    src:url("/Raleway/static/Raleway-Medium.ttf");
+    }
 #blocpage{
  
- 
+ font-family: "Raleway" ,serif;
     height:auto;
     width: 1440px;
     margin:auto;
-    font-family:Raleway, serif;
-   
+
 }
 
 .logo {
