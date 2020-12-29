@@ -26,7 +26,7 @@
 }
 
 
-.hébé{
+.heberg{
     margin-left:680px;
     margin-right: 10px;
     font-weight: bold;
@@ -52,7 +52,7 @@ a:visited{
     padding:20px 20px;
 }
 
- .hébé:hover{
+ .heberg:hover{
     border-top: 2px solid #0065FC;
     
  }
@@ -193,7 +193,7 @@ a:visited{
     
 }
 
-#hébé{
+#heberg{
     display:flex;
     max-width:920px;
     height:auto;
@@ -216,11 +216,16 @@ a:visited{
      margin:0px;
      padding:5px;
 }
-#hébé p{
+#heberg a{
+ text-decoration: none;
+ color:black;
+}
+#heberg p{
  margin-top:10px;
  margin-left:10px;
+ margin-bottom:10px;
 }
-#hébé div{
+#heberg div{
  margin:15px 30px 15px 30px;
 padding-top:5px;
 height:209px;
@@ -228,7 +233,7 @@ height:209px;
  border-radius:10px;
  background-color: white;
 }
-#hébé img{
+#heberg img{
  
  border-radius: 5px 5px 0px 0px;
 }
@@ -242,27 +247,28 @@ height:209px;
   margin:17px 30px 17px 30px;
 border-radius:10px;
  background-color:white;
- width:auto;
+ width:800px;
  height:144px;
 }
 .imgpop{
-     
-     display:flex;
-     align-items: center;
+     float:left;
      height:144px;
      width:auto;
-     padding-left: 5px;
+     padding: 5px;
 }
-.legpop{
- display:flex;
- 
-}
+
+
 .legpop p{
- margin-left:10px;
+ margin-left:150px;
  margin-top: 20px;
 }
-
-
+#popu a{
+ color:black;
+ text-decoration: none;
+}
+#popu p{
+ height:120px;
+}
  
  
 .fondpage1{
@@ -286,10 +292,19 @@ border-radius:10px;
     
   
 }
-.yellow-star{
- color:#0065FC;
- font-size: 150%;
+#popu .stars{
+ margin-left:150px;
 }
+.stars{
+ 
+ margin-left: 10px;
+}
+.stars:hover .fa-star {                     /*toutes les etoiles en jaunes*/
+		color: #0065FC;
+	}
+ .stars .fa-star:hover ~ .fa-star {         /*au survol souris toutes les etoiles apres la selectionnee sont en grises*/
+		color: gray;
+	}
 #activites{
    
     height:560px;
@@ -305,8 +320,13 @@ border-radius:10px;
     
 }
 #acti p{
+ height:40px;
  font-weight: bold;
 margin-left:10px;
+}
+#acti a{
+ text-decoration:none;
+ color:black;
 }
 
 .legacti{
@@ -414,8 +434,14 @@ footer{
 		color: #0065FC;
   
 	}
- 
-   
+ .fa-star {
+	color: gray;                            /*couleur par defaut des ciones en grises*/
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+   .fa-star.gold {
+	color: #0065FC;                          /*etoiles en bleues*/
+}
 .fa-info {
 
 		font-size: 12px;
@@ -456,21 +482,22 @@ top:20px;
 align-self: flex-start;
 }
 #activites h2{
- margin-right:100px;
+ margin:0px;
 }
 .fondpage h2{
- margin-right: 200px;
- 
+ margin-right: 220px;
+ margin-left:0px;
 }
 .fondpage1 h2{
- margin-right:160px;
+ margin-right:220px;
+ margin-left:0px;
 }
-.hébé{
+.heberg{
  font-size: 130%;
  margin-right: 30px;
  align-self: flex-end;
 }
-.hébé a{
+.heberg a{
 position:absolute;
 top:155px;
 left:145px;
@@ -497,11 +524,11 @@ font-size: 130%;
 .inscri a{
  position:absolute;
  top:65px;
- right:-475px;
+ right:-560px;
  font-size:250%
 
 }
-.hébé:hover a{
+.heberg:hover a{
  border-top:none;
  border-bottom: 2px solid #0065FC;
 }
@@ -510,20 +537,24 @@ font-size: 130%;
  border-bottom: 2px solid #0065FC;
 }
 #recherche p{
- margin-left:150px;
+ margin-left:245px;
  width:390px;
  padding:10px;
  margin-top:100px;
  }
+
  form{
-  margin-left:150px;
+  margin-left:245px;
  }
  
-
+.stars{
+ margin-top:-50px;
+ margin-left: 10px;
+}
  #filtres {
   flex-direction: column;
   width:400px;
-  margin-left:150px;
+  margin-left:245px;
   margin-bottom:50px;
   
   
@@ -578,7 +609,7 @@ font-size: 130%;
     }
     #info{
      width:500px;
-     margin-left:130px;
+     margin-left:220px;
      margin-top:75px
     }
   #hebergements{
@@ -588,23 +619,26 @@ font-size: 130%;
   margin-left:0px;
   flex-direction: column-reverse;
  }
-  #hébé{
+  #heberg{
   flex-direction: column;
-  margin-right: 70px;
+  margin-right: 95px;
   
  }
- #hébé p{
+ #heberg p{
   margin-left: 10px;
  }
   #popu{
    display:flex;
    flex-direction: column;
-   margin-left: -70px;
+   margin-right:80px;
   
   }
   #popu div{
    width:334px;
    margin-left:0px;
+  }
+  #popu p{
+   height:65px;
   }
   
   .legpop{
@@ -620,7 +654,7 @@ font-size: 130%;
    flex-direction:column;
    align-items: center;
     padding:0px;
-    min-width: 878px;
+    min-width: 1020px;
     background-color: #F2F2F2;
     border-radius: 10px;
     margin:60px 0px 0px 0px;
@@ -629,7 +663,7 @@ font-size: 130%;
    display:flex;
    flex-direction: column;
    align-items: center;
-    min-width:767px;
+    min-width:945px;
     padding:0px;
     background-color:white;
   }
@@ -645,7 +679,7 @@ font-size: 130%;
   #acti{
       flex-direction: column;
       margin-top:50px;
-      margin-left: 90px;
+      margin-left: 250px;
       
   }
 
@@ -702,7 +736,7 @@ font-size: 130%;
  border-radius: 15px;
 }
 footer{
- min-width: 878px;
+ min-width: 1020px;
 }
 #piedpage{
 margin-left:0px;
@@ -732,11 +766,11 @@ margin-left:0px;
 #logo{
  width:300px;
 }
-.hébé{
+.heberg{
 margin-left:825px;
 }
 
-.hébé a{
+.heberg a{
  font-size:  150%;
  margin-left:20px;
 }
@@ -747,10 +781,11 @@ margin-left:825px;
  font-size:150%;
 }
 #recherche p{
- margin-top:100px;
+ margin-top:175px;
  margin-left:65px;
 }
 form{
+ margin-top:50px;
  margin-left:65px;
 }
 #filtres{
@@ -759,16 +794,19 @@ form{
 #info{
  margin-left:20px;
 }
-#hébé{
+#heberg{
  margin-top:40px;
  height:785px;
  width:auto;
  flex-flow:column wrap;
 }
-#hébé p{
+#hebergements{
+ margin-top:100px;
+}
+#heberg p{
  margin-top:5px;
 }
-#hébé div{
+#heberg div{
  width:334px;
  height:210px;
  background-color: white;
@@ -881,13 +919,17 @@ form{
  width:1000px;
 }
 footer{
- width:1575px;
+ height:295px;
+ margin-top: 270px;
+ width:1700px;
+ padding-top: 60px;
 }
 #piedpage{
  justify-content:center;
 }
 
 }
+
 
 
 
