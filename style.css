@@ -4,7 +4,7 @@
     }
 #blocpage{
  
- font-family: "Raleway" ,serif;
+    font-family: "Raleway" ,serif;
     height:auto;
     width: 1440px;
     margin:auto;
@@ -270,7 +270,7 @@ border-radius:10px;
  text-decoration: none;
 }
 #popu p{
- width:180px;
+ width:175px;
  height:120px;
 }
  
@@ -299,7 +299,7 @@ border-radius:10px;
 #popu .stars{
  position:relative;
  left:140px;
- bottom:40px;
+ bottom:55px;
 }
 
 .stars{
@@ -492,7 +492,7 @@ align-self: flex-start;
  margin:0px;
 }
 .fondpage h2{
- margin-right: 220px;
+ margin-right: 230px;
  margin-left:0px;
 }
 .fondpage1 h2{
@@ -508,7 +508,7 @@ align-self: flex-start;
 .heberg a{
 position:absolute;
 top:155px;
-left:145px;
+left:175px;
 font-size:150%;
 }
 .acti{
@@ -767,6 +767,7 @@ margin-left:0px;
 
 .baspage{
  line-height:normal;
+ margin-right:175px;
 }
 .baspage:nth-child(2){
  margin-left:-65px;
