@@ -499,7 +499,7 @@ align-self: flex-start;
  margin:0px;
 }
 .fondpage h2{
- margin-right: 230px;
+ margin-right: 290px;
  margin-left:0px;
 }
 .fondpage1 h2{
@@ -515,7 +515,7 @@ align-self: flex-start;
 .heberg a{
 position:absolute;
 top:155px;
-left:175px;
+left:220px;
 font-size:150%;
 }
 .acti{
@@ -526,7 +526,7 @@ font-size: 130%;
 .acti a{
  position:absolute;
  top:155px;
- right:-270px;
+ right:-360px;
  font-size:150%;
  }
 
@@ -539,7 +539,7 @@ font-size: 130%;
 .inscri a{
  position:absolute;
  top:65px;
- right:-560px;
+ right:-610px;
  font-size:250%
 
 }
@@ -624,6 +624,7 @@ font-size: 130%;
      margin-left:220px;
      margin-top:75px
     }
+    
   #hebergements{
    
   margin-top:650px;
@@ -633,7 +634,7 @@ font-size: 130%;
  }
  #heberg div{
   height:225px;
-  width:343px;
+  width:334px;
   box-shadow: 5px 5px 5px #F2F2F2;
  }
   #heberg{
@@ -647,10 +648,13 @@ font-size: 130%;
  #heberg p{
   margin-left: 35px;
  }
+ .imgheb{
+  padding:0px;
+ }
   #popu{
    display:flex;
    flex-direction: column;
-   margin-right:60px;
+   margin-right:120px;
   
   }
   #popu div{
@@ -674,12 +678,17 @@ font-size: 130%;
   .imgpop{
    margin-bottom:50px;
   }
+  .fa-chart-line{
+  position:relative;
+  top:-20px;
+  left:90px;
+ }
   .fondpage{
    display:flex;
    flex-direction:column;
    align-items: center;
     padding:0px;
-    min-width: 1020px;
+    min-width: 1075px;
     background-color: #F2F2F2;
     border-radius: 10px;
     margin:60px 0px 0px 0px;
@@ -694,6 +703,10 @@ font-size: 130%;
     padding:0px;
     background-color:white;
   }
+  .aff{
+   position:relative;
+   left:-85px;
+  }
   #activites{
    display:flex;
    flex-direction: column;
@@ -705,7 +718,7 @@ font-size: 130%;
   }
   #acti{
       flex-direction: column;
-      margin-top:50px;
+      margin-top:0px;
       margin-left: 250px;
       
   }
@@ -763,7 +776,7 @@ font-size: 130%;
  border-radius: 15px;
 }
 footer{
- min-width: 1020px;
+ min-width: 1075px;
 }
 #piedpage{
 margin-left:0px;
