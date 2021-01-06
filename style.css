@@ -12,7 +12,7 @@ body{
 #blocpage{
  
     
-    width: 100%;
+    width: auto;
     margin:auto;
 
 }
@@ -84,18 +84,24 @@ a:visited{
  strong{
     font-size:25px;
  }
- #bouton{
-    background-color: #0065FC;
-    font-family: Raleway, serif;
+ #input2 {
     font-weight: bold;
-    color:white;                                    /*stylisation du bouton*/
-    font-size: 20px;
-    width:130px;
-    height:56px;
-    border-radius:0px 10px 10px 0px;
-    margin-top:-2px;
-    margin-left:-2px;
+    background-color: #0065FC;
+    border: none;
+    color: white;                                          /*stylisation du bouton*/
+    width: 140px;
+    height:50px;
+    font-size: 18px;
+    border-left: none;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+}
+ 
+ .fa-search loupe{
+  display:none;
  }
+
+  
  #maRecherche{
     width:233px;
     height:50px;
@@ -293,6 +299,15 @@ border-radius:25px;
     background-color: #F2F2F2;
     border-radius: 10px;
     margin:60px 40px 0px 0px;
+}
+.fondpage1 h2{
+ margin-left: 20px;
+}
+.fondpage h2{
+ margin-left:20px;
+}
+#activites h2{
+ margin-left:20px;
 }
 .fondpage{
     height:627px;
@@ -530,6 +545,8 @@ footer{
  width:100%;
 }
 .heberg {
+ position: relative;
+ top:30px;
  align-self: flex-end;
     margin-right: 10px;
     font-weight: bold;
@@ -537,40 +554,42 @@ footer{
 }
 .acti {
  align-self:flex-end;
+ position:relative;
+ top: 30px;
+ width: 100px;
 }
 .heberg a{
  border-bottom:2px  solid #0065FC;
  padding-right: 30px;
  padding-left: 65px;
  font-size:  17px;
- position:relative;
- top:20px;
-left:-108px;
+
 }
 .acti a{
  font-size:17px;
  padding-right: 120px;
  padding-left:30px;
-    position: relative;
-    top: 20px;
-    right: 120px;
+
 }
 .inscri a {
- position: absolute;
-    top: 25px;
-    right: -15px;
+
  font-size:25px;
 }
-
+.inscri{
+ position:relative;
+ top: 5px;
+ right:20px;
+}
 
 
 #recherche p{
- margin-left: 10px;
+ margin-left: 66px;
  margin-top:0px;
+ width: 100%;
 }
 form{
  margin-top:0px;
- margin-left:0px;
+ margin-left:55px;
 }
 #testfil {
     flex-wrap: wrap;
@@ -580,7 +599,7 @@ form{
 }
 #filtres{
  width:480px;
- margin-left:0px;
+ margin-left:60px;
 }
 .ali {
     padding-left: 10px;
@@ -602,6 +621,7 @@ form{
  margin-left:20px;
 }
 #heberg{
+ margin-left: 50px;
  margin-top:40px;
  margin-right:0px;
  height:auto;
@@ -633,6 +653,9 @@ form{
  left:20px;
  margin-left: 0;
 }
+.aff {
+ left:80px;
+ }
 #popu div{
  display: flex;
  flex-direction: column;
@@ -659,17 +682,17 @@ margin:auto;
 background-color: white;
 }
 .fondpage{
-width: 480px;
+width: 555px;
 height:100%;
 margin:auto;
 margin-top:15px;
 }
 .fondpage1 h2{
- margin-left:20px;
+ margin-left:80px;
  }
 
 #popu{
- margin-left: 10px;
+ margin-left: 60px;
  flex-direction: column;
  padding: 0 20px 0 20px;
  
@@ -699,13 +722,13 @@ margin-top:15px;
  .fa-chart-line{
   position:relative;
   top:-22px;
-  left:265px;
+  left:390px;
  }
 .fondpage h2{
- margin-left:20px;
+ margin-left:80px;
 }
 #activites h2{
- margin-left:30px;
+ margin-left:80px;
 }
 #activites{
  margin-top:35px;
@@ -780,7 +803,7 @@ margin-top:15px;
  display:flex;
  flex-wrap:wrap;
 width: 100%;
-margin-left:0px;
+margin-left:50px;
 }
 .legresp{
  flex-direction: column;
@@ -791,10 +814,11 @@ margin-left:0px;
 footer{
  height:auto;
  margin-top: 30px;
- width:480px;
+ width:555px;
  padding-top: 20px;
 }
 #piedpage{
+ margin-left: 80px;
  flex-direction: column;
  justify-content:center;
 }
@@ -802,7 +826,7 @@ footer{
 }
 
 
-}
+
 @media all and (min-width:481px) and (max-width:862px){
  body{
   width: 100%;
@@ -1315,7 +1339,7 @@ form{
 }
 #heberg{
  justify-content: center;
- max-width: none;
+ 
  margin-top:40px;
  margin-right:0px;
  height:auto;
