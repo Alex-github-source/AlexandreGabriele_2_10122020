@@ -502,7 +502,7 @@ footer{
 		border: 1px solid #F2F2F2;
 		padding: 5px;
 		color: #0065FC;
-  margin-right: 20px;
+  margin-right: 2px;
 	}
  
  .fa-chart-line{
@@ -545,7 +545,7 @@ footer{
  font-size:  17px;
  position:relative;
  top:20px;
-left:-70px;
+left:-108px;
 }
 .acti a{
  font-size:17px;
@@ -553,12 +553,12 @@ left:-70px;
  padding-left:30px;
     position: relative;
     top: 20px;
-    right: 64px;
+    right: 120px;
 }
 .inscri a {
  position: absolute;
     top: 25px;
-    right: -80px;
+    right: -15px;
  font-size:25px;
 }
 
@@ -800,223 +800,7 @@ footer{
 }
 
 }
-@media all and (min-width:934px) and (max-width:1239px){
- body{
-  width: 100%;
-  height: 100%;
- }
- #blocpage{
-  width:100%;
-  height: 100%;
-}
-#logo{
- width:120px;
-}
 
-.entete{
- width:100%;
-}
-.heberg a{
- font-size:  20px;
- margin-left:20px;
-}
-.acti a{
- font-size:20px;
-}
-.inscri a {
- font-size:20px;
-}
-#recherche p{
- margin-top:0px;
- margin-left:65px;
-}
-form{
- margin-top:0px;
- margin-left:65px;
-}
-#filtres{
- width:auto;
- margin-left:0px;
-}
-#info{
- margin-left:20px;
-}
-#heberg{
- justify-content: center;
- max-width: none;
- margin-top:40px;
- margin-right:0px;
- height:auto;
- width:auto;
- flex-flow:row wrap;
-}
-#hebergements{
- flex-direction: column-reverse;
- margin:auto;
- height:auto;
-}
-
-
-#heberg div{
-
- width:250px;
- background-color: white;
- border-radius: 15px;
- padding:0px;
-}
-.imgheb{
- padding-left:0px;
-}
-#heberg .stars{
- position:relative;
- 
- left:20px;
- margin-left: 0;
-}
-#popu div{
- width:258px;
- background-color: white;
- border-radius: 25px;
- padding:0px;
-}
-#popu p{
- width: auto;
- margin-left:15px;
-}
-
-.imgpop{
- padding:0px;
-}
-.fondpage1{
-width:100%;
-height:100%;
-}
-.fondpage{
-width: auto;
-height:auto;
-margin-right:0px;
-margin-top:0px;
-}
-
-#popu{
- width: auto;
- flex-direction: row;
- padding: 0 20px 0 20px;
- margin-top:20px;
-}
-
-#popu div{
- margin-top:20px;
- margin-bottom:10px;
- margin-left:0px;
- margin-right: 40px;
-}
-#popu img{
- margin-right: 5px;
- border-radius:25px 0px 0px 25px;
-}
-#popu .stars {
-    position: relative;
-    left:125px;
-    bottom: 38px;
-}
-.legpop{
- width: 260px;
-}
-.fondpage h2{
- margin-left:50px;
-}
-#activites h2{
- margin-left:30px;
-}
-#activites{
- margin-top:35px;
- width:auto;
- height:auto;
-}
-
- .legacti{
- height:190px;
- width:250px;
- margin-top:60px;
- box-shadow: 5px 5px 5px #F2F2F2;
- border-radius: 15px;
- margin-left:50px;
-}
-.legacti img {
-    height: 139px;
-    width: 100%;
-    object-fit: cover;
-}
-
-
-  #legacti1{
- height:190px;
- width:250px;
- margin-top:60px;
- margin-right:40px;
- box-shadow: 5px 5px 5px #F2F2F2;
- border-radius: 15px;
-}
-#legacti1 img {
-    width: 100%;
-    height: 139px;
-    object-fit: cover;
-}
- #legacti2{
- height:190px;
- width:250px;
- margin-top:60px;
- margin-right:40px;
- box-shadow: 5px 5px 5px #F2F2F2;
- border-radius: 15px;
-}
-#legacti2 img {
-    width: 100%;
-    height: 139px;
-    object-fit: cover;
-}
-  #legacti3{
- height:190px;
- width:250px;
- margin-top:60px;
- margin-right:40px;
- box-shadow: 5px 5px 5px #F2F2F2;
- border-radius: 15px;
-}
-  #legacti4{
- height:190px;
- width:250px;
- margin-top:60px;
- margin-right:40px;
- box-shadow: 5px 5px 5px #F2F2F2;
- border-radius: 15px;
-}
-#legacti4 img {
-    width: 100%;
-    height: 139px;
-    object-fit: cover;
-}
-#acti{
- justify-content: center;
- display:flex;
- flex-wrap:wrap;
-width: 100%;
-margin-left:0px;
-}
-.legresp{
- display:flex;
- width:auto;
-}
-footer{
- height:295px;
- margin-top: 30px;
- width:100%;
- padding-top: 20px;
-}
-#piedpage{
- justify-content:center;
-}
 
 }
 @media all and (min-width:481px) and (max-width:862px){
@@ -1488,7 +1272,7 @@ footer{
 }
 
 }
-@media all and (min-width:481px) and (max-width:862px){
+@media all and (min-width:934px) and (max-width:1239px){
  body{
   width: 100%;
   height: 100%;
@@ -1505,21 +1289,22 @@ footer{
  width:100%;
 }
 .heberg a{
- font-size:  15px;
+ font-size:  20px;
  margin-left:20px;
 }
 .acti a{
- font-size:15px;
+ font-size:20px;
 }
 .inscri a {
- font-size:15px;
+ font-size:20px;
 }
 #recherche p{
  margin-top:0px;
+ margin-left:65px;
 }
 form{
  margin-top:0px;
- margin-left:0px;
+ margin-left:65px;
 }
 #filtres{
  width:auto;
@@ -1530,14 +1315,15 @@ form{
 }
 #heberg{
  justify-content: center;
+ max-width: none;
  margin-top:40px;
  margin-right:0px;
- height:720px;
+ height:auto;
  width:auto;
- flex-flow:column wrap;
+ flex-flow:row wrap;
 }
 #hebergements{
- flex-direction: column;
+ flex-direction: column-reverse;
  margin:auto;
  height:auto;
 }
@@ -1545,9 +1331,9 @@ form{
 
 #heberg div{
 
- width:210px;
+ width:250px;
  background-color: white;
- border-radius: 25px;
+ border-radius: 15px;
  padding:0px;
 }
 .imgheb{
@@ -1560,17 +1346,12 @@ form{
  margin-left: 0;
 }
 #popu div{
- display: flex;
- flex-direction: column;
- width:210px;
- height: 209px;
+ width:258px;
  background-color: white;
  border-radius: 25px;
  padding:0px;
 }
 #popu p{
- height:85px;
- margin-top: 5px;
  width: auto;
  margin-left:15px;
 }
@@ -1579,15 +1360,14 @@ form{
  padding:0px;
 }
 .fondpage1{
-width:530px;
+width:100%;
 height:100%;
-margin:auto;
 }
 .fondpage{
-width: 530px;
+width: auto;
 height:auto;
-margin:auto;
-margin-top:15px;
+margin-right:0px;
+margin-top:0px;
 }
 
 #popu{
@@ -1604,31 +1384,19 @@ margin-top:15px;
  margin-right: 40px;
 }
 #popu img{
- height: 114px;
- width: 100%;
  margin-right: 5px;
- border-radius:25px 25px 0px 0px;
+ border-radius:25px 0px 0px 25px;
 }
 #popu .stars {
     position: relative;
-    left:20px;
+    left:125px;
     bottom: 38px;
 }
-.imgpop{
- float: none;
-}
 .legpop{
- display: flex;
- flex-direction: column;
  width: 260px;
 }
- .fa-chart-line{
-  position:relative;
-  top:-22px;
-  left:265px;
- }
 .fondpage h2{
- margin-left:20px;
+ margin-left:50px;
 }
 #activites h2{
  margin-left:30px;
@@ -1640,15 +1408,15 @@ margin-top:15px;
 }
 
  .legacti{
- height:440px;
- width:230px;
+ height:190px;
+ width:250px;
  margin-top:60px;
  box-shadow: 5px 5px 5px #F2F2F2;
  border-radius: 15px;
  margin-left:50px;
 }
 .legacti img {
-    height: 390px;
+    height: 139px;
     width: 100%;
     object-fit: cover;
 }
@@ -1656,7 +1424,7 @@ margin-top:15px;
 
   #legacti1{
  height:190px;
- width:230px;
+ width:250px;
  margin-top:60px;
  margin-right:40px;
  box-shadow: 5px 5px 5px #F2F2F2;
@@ -1669,7 +1437,7 @@ margin-top:15px;
 }
  #legacti2{
  height:190px;
- width:230px;
+ width:250px;
  margin-top:60px;
  margin-right:40px;
  box-shadow: 5px 5px 5px #F2F2F2;
@@ -1682,7 +1450,7 @@ margin-top:15px;
 }
   #legacti3{
  height:190px;
- width:230px;
+ width:250px;
  margin-top:60px;
  margin-right:40px;
  box-shadow: 5px 5px 5px #F2F2F2;
@@ -1690,7 +1458,7 @@ margin-top:15px;
 }
   #legacti4{
  height:190px;
- width:230px;
+ width:250px;
  margin-top:60px;
  margin-right:40px;
  box-shadow: 5px 5px 5px #F2F2F2;
@@ -1709,10 +1477,8 @@ width: 100%;
 margin-left:0px;
 }
 .legresp{
- flex-direction: column;
  display:flex;
  width:auto;
- margin-left: 50px;
 }
 footer{
  height:295px;
@@ -1722,8 +1488,6 @@ footer{
 }
 #piedpage{
  justify-content:center;
-}
-
 }
 
 
