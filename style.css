@@ -601,7 +601,7 @@ form{
 .iconeloupe{
  display:initial;
  height:50px;
- width: 50px;
+ min-width: 50px;
  background-color: #0065FC;
  border-radius: 0 15px 15px 0;
 }
