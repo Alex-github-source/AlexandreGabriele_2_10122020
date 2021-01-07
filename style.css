@@ -97,7 +97,7 @@ a:visited{
     border-top-right-radius: 22px;
 }
  
- .fa-search loupe{
+ .iconeloupe{
   display:none;
  }
 
@@ -152,7 +152,7 @@ a:visited{
     margin-right:10px;
  }
  #romresp{
-     width: 154px;
+     width: 165px;
     font-size:18px;
     font-weight: bold;
     border-radius:20px;
@@ -540,7 +540,6 @@ footer{
 #logo{
  width:160px;
 }
-
 .entete{
  width:100%;
 }
@@ -591,6 +590,25 @@ form{
  margin-top:0px;
  margin-left:55px;
 }
+.fa-search{
+ position: relative;
+    top: 30%;
+    left: 15%;
+ font-size: 25px;
+ color: white;
+
+}
+.iconeloupe{
+ display:initial;
+ height:50px;
+ width: 50px;
+ background-color: #0065FC;
+ border-radius: 0 15px 15px 0;
+}
+#input2 {
+ display:none;
+}
+
 #testfil {
     flex-wrap: wrap;
     width: 325px;
@@ -601,6 +619,7 @@ form{
  width:480px;
  margin-left:60px;
 }
+
 .ali {
     padding-left: 10px;
 }
@@ -621,7 +640,7 @@ form{
  margin-left:20px;
 }
 #heberg{
- margin-left: 50px;
+ margin-left: 70px;
  margin-top:40px;
  margin-right:0px;
  height:auto;
@@ -654,7 +673,7 @@ form{
  margin-left: 0;
 }
 .aff {
- left:80px;
+ left:100px;
  }
 #popu div{
  display: flex;
@@ -688,11 +707,11 @@ margin:auto;
 margin-top:15px;
 }
 .fondpage1 h2{
- margin-left:80px;
+ margin-left:100px;
  }
 
 #popu{
- margin-left: 60px;
+ margin-left: 80px;
  flex-direction: column;
  padding: 0 20px 0 20px;
  
@@ -725,10 +744,10 @@ margin-top:15px;
   left:390px;
  }
 .fondpage h2{
- margin-left:80px;
+ margin-left:100px;
 }
 #activites h2{
- margin-left:80px;
+ margin-left:100px;
 }
 #activites{
  margin-top:35px;
@@ -803,7 +822,7 @@ margin-top:15px;
  display:flex;
  flex-wrap:wrap;
 width: 100%;
-margin-left:50px;
+margin-left:70px;
 }
 .legresp{
  flex-direction: column;
@@ -1512,6 +1531,7 @@ footer{
 }
 #piedpage{
  justify-content:center;
+}
 }
 
 
