@@ -1,11 +1,12 @@
   @font-face{
-    font-family:"Raleway";
-    src:url("Raleway/static/Raleway-Medium.ttf");
-    }
-    
-body{
-     font-family: "Raleway" ,Arial,serif;
-    height:auto;
+    font-family:"Raleway";                                                                        /*menu*/
+    src:url("Raleway/static/Raleway-Medium.ttf");                                                 /*en tete*/
+    }                                                                                             /*recherche et filtres l.75*/
+/                                                                                                  /* hebergement l.201*/
+body{                                                                                               /*activites l.344*/
+                                                                                                    /*pied de page l.438*/
+     font-family: "Raleway" ,Arial,serif;                                                           /*icone l.464*/
+    height:auto;                                                                                    /*responsive l.532*/
      width:1440px;
      margin:auto;
      }
@@ -528,10 +529,10 @@ footer{
  
  /**responsive**/
 
-@media all and  (max-width:480px){
- body{
-  width: 100%;
-  height: 100%;
+@media all and  (max-width:480px){                                          /*menu responsive*/
+ body{                                                                      /*breakpoint 2 l.850*/
+  width: 100%;                                                              /*breakpoint 3 l.1088*/
+  height: 100%;                                                             /*breakpoint 4 l.1319*/
  }
  #blocpage{
   width:100%;
