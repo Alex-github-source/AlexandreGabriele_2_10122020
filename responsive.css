@@ -30,7 +30,6 @@ h1{
     nav ul {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row-reverse;
         padding-left: 0px;
         justify-content: space-around;
     }
