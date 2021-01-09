@@ -6,8 +6,9 @@
 body{                                                                                               /*activites l.344*/
      font-family: "Raleway" ,Arial,serif;                                                           /*icone l.464*/
     height:auto;                                                                                    /*responsive l.532*/
-     width:auto;
+     width:100%;
      margin: 0px;
+     padding:0px;
      }
 #blocpage{
  
@@ -36,7 +37,7 @@ body{                                                                           
     font-size : 17px;  
 }
  nav{
-  margin:0 30px 0 0;
+  margin:0 90px 0 0;
  }
 nav ul {
     display:flex;
@@ -78,7 +79,7 @@ nav a:hover {
 }
 
 
-}
+
  
  /*fin du com précédent*/
  
@@ -191,9 +192,9 @@ nav a:hover {
 .heberg{
     display:flex;
 flex-direction: column;
-  margin:20px 30px 0px 30px;
+  margin:20px 40px 0px 30px;
    height:auto;
-    width: 935px;
+    width: 850px;
     background-color: #F2F2F2;
     border-radius: 10px;
     
@@ -201,29 +202,15 @@ flex-direction: column;
 .contenairepopu{
  display: flex;
  flex-direction: column;
- margin-top:60px;
+ margin-top:80px;
 }
-.popu{
-    display:flex;
-    flex-direction: column;
-    width:345px;
-    margin-top:20px ;
-    padding: 0 30px 0 30px;
-       height:auto;
-    background-color: #F2F2F2;
-    border-radius: 10px;
-}
+
 
 .heberg a{
  text-decoration: none;
  color:black;
 }
-.heberg p{
 
- margin-top:10px;
- margin-left:10px;
- margin-bottom:10px;
-}
 .imgheb{
  margin:15px 0px 15px 0px;
 height:209px;
@@ -238,7 +225,21 @@ height:209px;
  object-fit: cover;
  border-radius: 25px 25px 0px 0px;
 }
-
+.popu{
+    display:flex;
+    flex-direction: column;
+    
+    margin-top:20px ;
+    padding: 0 30px 0 30px;
+       height:auto;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.popu h2{
+ margin-left: 0px;
+ display:flex;
+ justify-content: space-between;
+}
 .popu img{
  height: 100%;
  width:127px;
@@ -246,11 +247,6 @@ height:209px;
  border-radius: 25px 0px 0px 25px;
 }
 
-.imgpop{
-     float:left;
-     height:144px;
-     width:auto;
-}
 .legpop{
  margin-bottom: 50px;
  height: 144px;
@@ -269,6 +265,7 @@ height:209px;
 .popu p{
  width:175px;
  height:120px;
+ margin-top:-130px;
 }
  
  
@@ -296,15 +293,9 @@ flex-wrap: wrap;
 }
 .aff{
     font-weight: bold;
-    position:relative;
-    left:50px;
-    top:20px;
+  margin-left:40px;
   }
-.popu .stars{
- position:relative;
- left:145px;
- bottom:55px;
-}
+
 
 .stars{
  
@@ -328,8 +319,9 @@ flex-wrap: wrap;
 
 #acti{
     justify-content: space-around;
-    width:auto;
+    width:1280px;
     display:flex;
+    margin-left:20px;
         
 }
 #acti img{
@@ -418,27 +410,37 @@ footer{
     display:flex;
     margin-left: 50px;
     
-    
+
 }
 
-.baspage:nth-child(1){
-   margin-left: 25px;
-}
-
-.baspage:nth-child(3){
-    margin-right:  380px;
-}
 .foot{
     line-height: 2em;
 }
 
-
+.baspage:nth-child(1) {
+    width: auto;
+    margin-right: 50px;
+    flex:1;
+    margin-left: 50px;
+    }
+    .baspage:nth-child(2) {
+    width: auto;
+    margin-right: 50px;
+    flex:1;
+    margin-left: 50px;
+    }
+    .baspage:nth-child(3) {
+    width: auto;
+    margin-right: 50px;
+    flex:1;
+    margin-left: 50px;
+    }
 /*Icones:*/
 
 .fa-map-marker-alt{
  position:relative;
- top:30%;
- left:35%;
+ top:13px;
+ left:17px;
  font-size: 25px;
    
 }
@@ -497,13 +499,11 @@ footer{
   margin-right: 2px;
 	}
  
- .fa-chart-line{
-  position:relative;
-  bottom:40px;
-  left:300px;
- }
+
  
- /**responsive**/
+ 
+ 
+
 
 
 
