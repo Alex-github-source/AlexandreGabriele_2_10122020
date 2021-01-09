@@ -16,6 +16,13 @@ flex-wrap: wrap;
 h1{
  font-size: 20px;
 }
+.div1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    font-size: 17px;
+}
   #inscri{
         margin-top: -90px;
         margin-right: 5px;
@@ -143,14 +150,15 @@ button{
  margin-left: 0;
 }
 .popu h2{
- 
+ margin-left: 0px;
  margin-bottom: 0px;
 }
 .aff {
- left:100px;
+ left:20px;
  }
 .popu div{
  display: flex;
+ margin-top: 10px;
  flex-direction: column;
  width:334px;
  height: 145px;
@@ -205,13 +213,14 @@ margin-top:15px;
  .fa-chart-line{
   position:relative;
   top:-22px;
-  left:390px;
+  left:320px;
  }
 .fondpage h2{
  margin-left:40px;
 }
 #activites h2{
- margin-left:100px;
+ margin-bottom: 0px;
+ margin-left:25px;
 }
 #activites{
  margin-top:35px;
