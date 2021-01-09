@@ -1,6 +1,8 @@
 @media screen and (max-width:420px){
  body{
   width: 100%;
+  margin:0;
+  padding:0;
  }
  #blocpage{
   width:auto;
@@ -32,6 +34,7 @@ h1{
         margin-right: 5px;
     }
  nav {
+  margin-right:0;
         font-size: 18px;
         width: 100%;
         margin-top: 0px;
@@ -87,8 +90,8 @@ form{
 }
 .fa-search{
  position: relative;
-    top: 30%;
-    left: 15%;
+    top: 15px;
+    left: 15px;
  font-size: 25px;
  color: white;
 
@@ -125,6 +128,14 @@ button{
 #info{
  margin-left:0px;
 }
+#hebergements{
+ flex-direction: column-reverse;
+ margin:auto;
+ height:auto;
+}
+.heberg p{
+ margin-left: 10px;
+}
 .heberg{
  background-color: white;
  margin-left: 0px;
@@ -135,40 +146,23 @@ button{
 
 }
 
-#hebergements{
- flex-direction: column-reverse;
- margin:auto;
- height:auto;
+.aff{
+ margin-left: 40px;
 }
-
 
 .imgheb{
  width:334px;
  box-shadow: 2px 2px 20px grey;
  padding:0px;
 }
-.heberg .stars{
- position:relative;
+
  
- left:20px;
- margin-left: 0;
-}
 .popu h2{
  margin-left: 0px;
  margin-bottom: 0px;
 }
-.aff {
- left:20px;
- }
-.popu div{
- display: flex;
- flex-direction: column;
- width:334px;
- height: 145px;
- background-color: white;
- border-radius: 25px;
- padding:0px;
-}
+
+
 .popu p{
  height:100%;
  margin-top:-125px;
@@ -206,20 +200,13 @@ margin-top:15px;
 }
 
 
-.popu .stars {
-    position: static;
-    
-    
-}
 
 
 
-.fondpage h2{
- margin-left:40px;
-}
+
 #activites h2{
  margin-bottom: 0px;
- margin-left:25px;
+ margin-left:40px;
 }
 #activites{
  margin-top:35px;
@@ -852,8 +839,8 @@ flex-direction: column;
  height:auto;
 }
 .heberg .stars{
- margin-left:30px;
- margin-bottom: 10px;
+position: relative;
+bottom: 10px;
 }
 
 
@@ -876,8 +863,9 @@ margin-right: 15px;
  margin-left:0px;
 }
 .contenairepopu .stars{
- margin-left:20px;
- margin-bottom: 20px;
+position:relative;
+bottom:40px;
+
 }
 .imgpop{
  padding:0px;
@@ -901,8 +889,8 @@ margin-right: 15px;
  margin-right: 5px;
  border-radius:25px 25px 0px 0px;
 }
- .legpop:nth-child(2) p{
- margin-bottom: 5px;
+ .legpop:nth-child(2) .stars{
+ margin-top: 555px;
 }
 .legpop a {
  display: flex;

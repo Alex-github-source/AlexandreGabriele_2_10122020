@@ -205,7 +205,9 @@ flex-direction: column;
  margin-top:80px;
 }
 
-
+.heberg h2{
+ margin-left: 50px;
+}
 .heberg a{
  text-decoration: none;
  color:black;
@@ -213,7 +215,7 @@ flex-direction: column;
 
 .imgheb{
  margin:15px 0px 15px 0px;
-height:209px;
+height:220px;
  width:236px;
  padding:5px 5px 0 5px;
  border-radius:25px;
