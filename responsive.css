@@ -771,12 +771,12 @@ margin-left:0px;
  margin-left: 50px;
 }
 footer{
- height:295px;
  margin-top: 30px;
  width:100%;
  padding-top: 20px;
 }
 #piedpage{
+ flex-direction: column;
  justify-content:center;
 }
 
