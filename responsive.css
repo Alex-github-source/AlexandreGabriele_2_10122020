@@ -136,6 +136,9 @@ button{
 #info{
  margin-left:0px;
 }
+#info p{
+    margin-left: 10px;
+}
 #hebergements{
  flex-direction: column-reverse;
  margin:auto;
