@@ -97,9 +97,7 @@ form{
  color: white;
 
 }
-#iconerech{
-    margin-left:10px;
-}
+
 .iconeloupe{
  display:initial;
  height:50px;
@@ -110,9 +108,11 @@ form{
 #input2 {
  display:none;
 }
-
-#testfil {
+#iconerech{
     margin-left: 10px;
+}
+#testfil {
+    
     flex-wrap: wrap;
     width: auto;
     display: flex;
@@ -129,8 +129,8 @@ form{
 button{
  margin-top:5px;
  margin-bottom:5px;
- margin-left:0px;
- margin-right:10px;
+ margin-right:0px;
+ 
 }
 
 #info{
