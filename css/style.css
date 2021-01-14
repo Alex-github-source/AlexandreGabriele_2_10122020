@@ -301,10 +301,7 @@ flex-wrap: wrap;
   }
 
 
-.stars{
- 
- margin-left: 10px;
-}
+
 .stars:hover .fa-star {                     /*toutes les etoiles en bleues*/
 		color: #0065FC;
 	}
