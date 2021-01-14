@@ -173,6 +173,7 @@ nav a:hover {
   color:white;
  }
  #info{
+     display: flex;
   margin-left:30px;
   margin-top: 30px;
  }
@@ -493,15 +494,15 @@ footer{
 	color: #0065FC;                          /*etoiles en bleues*/
 }
 .fa-info {
-
-		font-size: 12px;
-		border-radius: 50%;
-		border: 1px solid #F2F2F2;
-		padding: 5px;
-		color: #0065FC;
-  margin-right: 2px;
-	}
- 
+    border-radius: 25px;
+    background-color:white;
+    color: #0065FC;
+    font-size: 14px;
+    padding: 12px;
+    margin: 7px 19px 0px -6px;
+    width: 6px;
+    height: 9px;
+    border:1px solid #DEEBFF;
 
  
  
